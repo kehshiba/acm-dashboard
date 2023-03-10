@@ -6,4 +6,4 @@ COPY ./ ./
 RUN npm i
 RUN npm uninstall bcrypt
 RUN npm install bcrypt
-CMD ["npm", "run", "start"]
+CMD /bin/script.sh
